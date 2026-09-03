@@ -1,5 +1,5 @@
 {
-  "name": "Luavault-obfuscator",
+  "name": "luapro-obfuscator",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
