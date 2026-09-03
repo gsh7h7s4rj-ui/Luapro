@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/obfuscate.js": {
+      "maxDuration": 60,
+      "includeFiles": "bin/**"
+    },
+    "api/keys.js": {
+      "maxDuration": 15
+    }
+  },
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
